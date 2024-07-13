@@ -1,10 +1,13 @@
 import './App.css';
-import StateDemo from './useState';
+import UseMemoDemo from './UseMemoDemo';
+// import HookDemo from './HookDemo';
 
 function App() {
   return (
     <div className="App">
-      <StateDemo />
+      {/* <HookDemo /> */}
+
+      <UseMemoDemo />
     </div>
   );
 }
