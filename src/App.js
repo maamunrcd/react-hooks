@@ -1,4 +1,5 @@
 import './App.css';
+import UseCallbackDemo from './UseCallbackDemo';
 import UseMemoDemo from './UseMemoDemo';
 // import HookDemo from './HookDemo';
 
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       {/* <HookDemo /> */}
 
-      <UseMemoDemo />
+      {/* <UseMemoDemo /> */}
+      <UseCallbackDemo></UseCallbackDemo>
     </div>
   );
 }
