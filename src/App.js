@@ -5,6 +5,7 @@ import UseMemoDemo from './UseMemoDemo';
 import UseReducerDemo from './UseReducerDemo';
 import UseRefDemo from './UseRefDemo';
 import UseRefDemo2 from './UseRefDemo/demo2';
+import UseTransitionDemo from './UseTransitionDemo';
 // import HookDemo from './HookDemo';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <UseRefDemo></UseRefDemo>
       <UseRefDemo2></UseRefDemo2> */}
 
-      <UseReducerDemo></UseReducerDemo>
+      {/* <UseReducerDemo></UseReducerDemo> */}
+      <UseTransitionDemo></UseTransitionDemo>
     </div>
   );
 }
